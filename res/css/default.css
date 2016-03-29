@@ -36,7 +36,8 @@ a {
 
 form, table {
   
-  display:inline; margin:0px; padding:0px;
+  /*display:inline; */
+  margin:0px; padding:0px;
   
 }
 

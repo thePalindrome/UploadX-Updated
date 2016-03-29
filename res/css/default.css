@@ -403,3 +403,18 @@ user-select: none;
     
 }
 
+div#settings_bannedtypes {
+	float: right;
+}
+
+div#settings_viewer {
+	float: left;
+}
+
+div#settings_config {
+	float: right;
+}
+
+form#settings {
+	float: left;
+}

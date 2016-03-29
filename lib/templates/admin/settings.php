@@ -16,8 +16,8 @@
     
     
     <div id='settings_main'>
-      <form method="post" action="./">
-      <div id="Viewer">
+      <form id='settings' method="post" action="./">
+      <div id="settings_viewer">
       <h2 class="animated fadeInUp" >Viewer</h2>
 
 		  <h3>General</h3>
@@ -55,7 +55,7 @@
 		  
 	</div>
 		  <br><br>
-	<div id="Config">
+	<div id="settings_config">
 		  <h2 class="animated fadeInUp">Config</h2>
         <h3>Files</h3>
         Save location: <input name='save_location' size="10" type="text" value="<?php echo($this->settingsHandler->getSettings()['security']['storage_folder']); ?>">
@@ -75,11 +75,9 @@
         <input name="changesettings" type="submit" value="Save changes">
         <br>
 		  <br>
+
+	<input name="fixFiles" type="submit" value="Fix files from directory move">
 	</div>
-		
-	<form action="./" method="post">
-		<input name="fixFiles" type="submit" value="Fix files from directory move">
-	</form>
 	</form>
 		<br><br>
 	<div id="settings_bannedtypes">

@@ -17,6 +17,7 @@
     
     <div id='settings_main'>
       <form method="post" action="./">
+      <div id="Viewer">
       <h2 class="animated fadeInUp" >Viewer</h2>
 
 		  <h3>General</h3>
@@ -52,7 +53,9 @@
 		  
 		  
 		  
+	</div>
 		  <br><br>
+	<div id="Config">
 		  <h2 class="animated fadeInUp">Config</h2>
         <h3>Files</h3>
         Save location: <input name='save_location' size="10" type="text" value="<?php echo($this->settingsHandler->getSettings()['security']['storage_folder']); ?>">
@@ -73,6 +76,7 @@
         <input type="hidden" name="action" value="changesettings">
         <br>
 		  <br>
+	</div>
       </form>
 		
 <form action="./" method="post">

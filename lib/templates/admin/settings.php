@@ -54,7 +54,6 @@
 		  
 		  
 	</div>
-		  <br><br>
 	<div id="settings_config">
 		  <h2 class="animated fadeInUp">Config</h2>
         <h3>Files</h3>

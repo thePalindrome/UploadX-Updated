@@ -77,14 +77,15 @@
         <br>
 		  <br>
 	</div>
-      </form>
 		
-<form action="./" method="post">
-	<input type="submit" value="Fix files from directory move">
-	<input type="hidden" name="action" value="fixfiles">
+	<form action="./" method="post">
+		<input type="submit" value="Fix files from directory move">
+		<input type="hidden" name="action" value="fixfiles">
 	
 	</form>
+	</form>
 		<br><br>
+	<div id="settings_bannedtypes">
 		  <h2 class="animated fadeInUp">Banned file types</h2> 
 		  <table class="animated fadeIn" style="width:10%">
 		<tr>
@@ -129,7 +130,7 @@
 			  </tr>
 			  
 			  </table>
-        
+        </div>
       
     </div>
     

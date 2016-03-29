@@ -108,7 +108,7 @@ class webCore
 			
         } 
 		
-		else if ($action == 'changesettings') {
+		else if (isset($_POST['changesettings'])) {
             
             /*
             
@@ -172,7 +172,7 @@ class webCore
 			
 		}
         
-        else if ($action == 'fixfiles'){
+        else if (isset($_POST['fixfiles'])){
 			
 			$this->fileHandler->fixFiles();
 			

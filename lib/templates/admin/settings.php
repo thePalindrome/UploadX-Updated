@@ -72,16 +72,13 @@
 		  
 		  
 		  <br>
-        <input type="submit" value="Save changes">
-        <input type="hidden" name="action" value="changesettings">
+        <input name="changesettings" type="submit" value="Save changes">
         <br>
 		  <br>
 	</div>
 		
 	<form action="./" method="post">
-		<input type="submit" value="Fix files from directory move">
-		<input type="hidden" name="action" value="fixfiles">
-	
+		<input name="fixFiles" type="submit" value="Fix files from directory move">
 	</form>
 	</form>
 		<br><br>

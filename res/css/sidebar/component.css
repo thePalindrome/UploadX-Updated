@@ -27,7 +27,8 @@ body,
 }
 
 .st-pusher {
-    background: #222222;
+	position: fixed
+	background: #222222;
 	position: relative;
 	left: 0;
 	z-index: 99;

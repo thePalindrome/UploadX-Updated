@@ -13,6 +13,7 @@
 body {
 	font-weight: 300;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
+	overflow-x: hidden;
 }
 
 a {
